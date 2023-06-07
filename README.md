@@ -23,7 +23,7 @@ I've been a software engineer since about 2007 and although I can code in a vari
  
 For total beginners 2D games are much simpler to build than 3D games. If you're interested in **3D games** I would create a few 2D prototypes first and pick the game engines I've marked as supporting 3D.
 
-My **personal website** can be found [here](https://johnduncanscott.github.io/personal-website/).
+My **personal website** can be found [here](http://johnduncanscott.github.io/personal-website/).
 
 ## Summary
 Still comparing engines, but favourite so far is: **GDevelop**.
