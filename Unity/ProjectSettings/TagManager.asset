@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - TutorialRequirement
+  - CollectibleItem
+  - Trap
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -12,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -39,6 +41,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 471498955
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Terrain
+    uniqueID: 2049941085
+    locked: 0
+  - name: Foreground
+    uniqueID: 1972870135
     locked: 0
