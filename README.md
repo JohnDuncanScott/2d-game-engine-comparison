@@ -436,17 +436,30 @@ Ultimately, all companies need to make money but they did a bad job with this on
     * When adding new scripts, intellisense may not work for the new files. This can be fixed by regenerate the project files as per the setup steps
     * In some cases regenerating will not fix the issue, seem to be quite a few bugs here
     * Overall, the `Visual Studio` integration seems a lot more bug free, so recommend using that instead
+
+### Potential
+* **Unreal** - market leader. Better experience for 3D games but can also do 2D games. Can export to **HTML5**. Has visual scripting via `Blueprints`. Code must be C++ (harder than C#). `Pixel 2D` and `PaperZD` packages are popular, but `PaperZD` doesn't support multiplayer. `PaperZD` got bought by Epic to replace `Paper2D` since it hasn't been updated in a long time ([Link](https://www.reddit.com/r/unrealengine/comments/xzgv6t/is_ue_well_suited_to_2d_games/)). However `Paper2D` *does* support multiplayer. Would likely be a worse experience than **Unity** so this hasn't be prioritised yet ([Link](https://www.reddit.com/r/unrealengine/comments/15znwya/anything_you_feel_was_hard_to_overcome_with/))
+
 ### Rejected
-TBD
+* **BabylonJS** - **HTML5** game framework with excellent TypeScript support. Has editor but more pure coding oriented. Can do 2.5D games but **Phaser 3** tends to get recommended for 2D games instead. Some people have even offered to add a 2D game engine but it was rejected because the framework prefers to specialise in 3D
+* **Bitsy** - little editor for little games and worlds. Built-in editing tools and can do super simple logic and text. However, can only do moving around on a map and interacting with objects, so no platformers or anything complex
+* **Cocos2dx** - Coding is in JavaScript or Lua, no easier coding alternatives. Tutorials not great, seems more geared towards chinese market than english
+* **Construct 3** - powerful and simple 2D game engine. Block based logic building but can write small chunks of JavaScript. TypeScript not supported. Free version can publish to HTML5 but has no debugger, limited JavaScript lines and lots of other limitations ([Official pricing](https://www.construct.net/en/make-games/buy-construct-3/personal-plans)). [Forum discussion](https://www.construct.net/en/forum/construct-3/general-discussion-7/construct-free-version-149886) suggests free version is too limited
+* **Defold** - Coding is in Lua, no easier alternatives. Lua is not a good general purpose language, it's more suited to being embedded and used as a secondary language. This makes it a bit more common in the games industry (e.g. game mods) than elsewhere. See [here](https://www.reddit.com/r/lua/comments/rhbzbh/noob_here_what_are_the_advantages_of_lua/?rdt=52805) and [here](https://news.ycombinator.com/item?id=25795027) for more info. Some people love Lua, others hate it 
+* **GameMaker** - free version only lets you export to custom format, not web or other formats
+* **Godot** - simpler than **Unity** to pick up but not as mature. Has C# support and 4.0 really doubled down on this. Can export to HTML5. Totally free. Visual scripting support was removed in 4.0 - wasn't implemented well and they never managed to improve it, plus no real docs or videos for it (see https://godotengine.org/article/godot-4-will-discontinue-visual-scripting)
+* **Phaser** - popular JavaScript only 2D games engine. Docs aren't great. Visual scripting does exist via 3rd party editor but it's not mature and is not free (https://phasereditor2d.com/pricing/). Uses PixiJS under the hood for rendering. TypeScript support. HTML5 possible. Totally free
+* **PICO-8** - fantasy console with deliberate constraints. Desktop app costs money but there is a free web-based Education Edition (https://www.pico-8-edu.com/). Lots of built-in tools and uses Lua, but no coding alternatives. Celeste was prototyped in this. Can't use external editor without paid version. Can export as a URL (game is encoded entirely in the URL) so can share super easily. For web-based version the font is really hard to read and you can't change it
+* **Pixel Vision 8** – fantasy console where you can pick your constraints (e.g. gameboy, nes, etc.). Source code is C#. However it's no longer under active development 
+* **PlayCanvas** - Coding is in JavaScript only. Free version does not allow any private projects which is likely a dealbreaker for many people
+* **PuzzleScript** - lets you build really simple tile based puzzle games, so very niche
+* **Stencyl** - free version can only publish to web
+* **TIC-80** – very similar to **PICO-8** but less limited (more memory for code and sprites). Free version is pretty fully featured. Coding is Lua or JavaScript, no easier alternatives. Can't use external editor without pro version 
+* **Twine** - tell interactive non-linear stories, so very niche 
 
 ### TODO
 **Ignore this section, these are notes for me :)**
 * Update this readme
-  * Add rejected engines
-  * Add potential engine section and list Unreal Engine
-https://www.reddit.com/r/unrealengine/comments/xzgv6t/is_ue_well_suited_to_2d_games/ - it seems PaperZD got bought by Epic to replace Paper2D since Paper2D hasn't been updated in a long time, so likely stick with that
-Pixel 2D and PaperZD are quite loved
-https://www.reddit.com/r/unrealengine/comments/15znwya/anything_you_feel_was_hard_to_overcome_with/
   * Review doc again and do link test
 * Fix GDevelop bugs
   * Blend scenery
