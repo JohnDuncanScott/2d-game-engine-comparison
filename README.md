@@ -301,9 +301,7 @@ Ultimately, all companies need to make money but they did a bad job with this on
    * Final build
      * https://docs.unity3d.com/Manual/webgl-building.html
      * https://stackoverflow.com/questions/72453065/unable-to-parse-build-build-framework-js-br
-     * https://github.com/greggman/better-unity-webgl-template
-       * https://docs.unity3d.com/2023.3/Documentation/Manual/AssetPackagesImport.html
-     * [YouTube - Unity WebGL Full Screen in web browser Simple and fast.](https://www.youtube.com/watch?v=N07t-1vCAqc)
+     * https://github.com/seleb/Better-Minimal-WebGL-Template (tried https://github.com/greggman/better-unity-webgl-template but it doesn't keep the aspect ratio when the height is bigger than the width)
 2. **Create minimal playable game**
    * After spending about a day (not included in the **Platformer tutorial** timings in table since this approach was abandoned) wrestling with the official **2D Game Kit** project and encountering various bugs while customising it (e.g. adding ability to jump on enemy heads), decided to give up on this after hitting even deeper bugs like the VFX not playing unless the scene was reloaded and the VFX appearing in the middle of the scene, amongst other things. Rather than learning about Unity, I was learning more about how the kit was built, so I decided to go back to basics and follow [YouTube - Build a 2D Platformer Game in Unity | Unity Beginner Tutorial](https://www.youtube.com/watch?v=Ii-scMenaOQ&list=PLrnPJCHvNZuCVTz6lvhR81nnaf1a-b67U) to create something small as a base. All videos were followed but some are highlighted below where multiple useful topics were covered
    * [YouTube - Tilemap & Tile Palette | Build a 2D Platformer Game in Unity #2](https://www.youtube.com/watch?v=QkbGr1rAya8&list=PLrnPJCHvNZuCVTz6lvhR81nnaf1a-b67U&index=2)
@@ -442,9 +440,18 @@ Ultimately, all companies need to make money but they did a bad job with this on
 TBD
 
 ### TODO
+**Ignore this section, these are notes for me :)**
 * Update this readme
-  * Review doc again and do link test
   * Add rejected engines
+  * Add potential engine section and list Unreal Engine
+https://www.reddit.com/r/unrealengine/comments/xzgv6t/is_ue_well_suited_to_2d_games/ - it seems PaperZD got bought by Epic to replace Paper2D since Paper2D hasn't been updated in a long time, so likely stick with that
+Pixel 2D and PaperZD are quite loved
+https://www.reddit.com/r/unrealengine/comments/15znwya/anything_you_feel_was_hard_to_overcome_with/
+  * Review doc again and do link test
 * Fix GDevelop bugs
   * Blend scenery
   * Fix thumbstick player direction
+* Tipping
+  * Setup /support page on my own website that just redirects to the correct payment making it more flexible
+  * https://ko-fi.com
+* Publicise
