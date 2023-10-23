@@ -1,7 +1,5 @@
 # 2D Game Engine Comparison For Rapid Prototyping For Anyone
 
-<a href='https://ko-fi.com/supportkofi' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-
 ## Introduction
 I've always wanted to build my own game but had *zero* knowledge about this area. Game engines have advanced so much that *most people* can now put something reasonably impressive together for fun (or profit) *without too much effort*. [This post](https://farawaytimes.blogspot.com/2023/02/how-to-make-good-small-games.html?m=1) inspired me to dive in.
 
@@ -25,7 +23,7 @@ I've been a software engineer since about 2007 and although I can code in a vari
  
 For total beginners 2D games are much simpler to build than 3D games. If you're interested in **3D games** I would create a few 2D prototypes first and pick the game engines I've marked as supporting 3D.
 
-My **personal website** can be found [here](http://johnduncanscott.github.io/personal-website/) for the curious.
+If you enjoy this project, please [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://johnduncanscott.github.io/personal-website/#/tip). My **personal website** can be found [here](http://johnduncanscott.github.io/personal-website/) for the curious.
 
 ## Summary
 **GDevelop** is probably the one you should start with. If you feel limited, move to **Unity** but expect a steep learning curve. I've personally decided to stick with **Unity** (despite the 2023 pricing fiasco) as it's powerful and I like C#, plus some of my friends are using this. Key information can be found below, see the **Comparison** section next for a deeper analysis.
