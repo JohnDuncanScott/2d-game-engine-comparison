@@ -1,14 +1,6 @@
 # 2D Game Engine Comparison For Rapid Prototyping For Anyone
 
-<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
-  kofiWidgetOverlay.draw('duncanscott', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#00b9fe',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
+<a href='https://ko-fi.com/supportkofi' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 ## Introduction
 I've always wanted to build my own game but had *zero* knowledge about this area. Game engines have advanced so much that *most people* can now put something reasonably impressive together for fun (or profit) *without too much effort*. [This post](https://farawaytimes.blogspot.com/2023/02/how-to-make-good-small-games.html?m=1) inspired me to dive in.
