@@ -23,7 +23,7 @@ I've been a software engineer since about 2007 and although I can code in a vari
  
 For total beginners 2D games are much simpler to build than 3D games. If you're interested in **3D games** I would create a few 2D prototypes first and pick the game engines I've marked as supporting 3D.
 
-If you enjoy this project, please consider [buying me a :beer:](https://johnduncanscott.github.io/personal-website/#/tip). My **personal website** can be found [here](http://johnduncanscott.github.io/personal-website/) for the curious.
+If you enjoy this project, please consider [:hearts: buying me a :beer: :hearts:](https://johnduncanscott.github.io/personal-website/#/tip). My **personal website** can be found [here](http://johnduncanscott.github.io/personal-website/) for the curious.
 
 ## Summary
 **GDevelop** is probably the one you should start with. If you feel limited, move to **Unity** but expect a steep learning curve. I've personally decided to stick with **Unity** (despite the 2023 pricing fiasco) as it's powerful and I like C#, plus some of my friends are using this. Key information can be found below, see the **Comparison** section next for a deeper analysis.
