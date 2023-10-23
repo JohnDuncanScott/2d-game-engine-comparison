@@ -9,6 +9,7 @@ There are an overwhelming number of game engines to pick from so here is:
 * Links to get you started
 * The same playable game for each engine to make it easy to compare (created by following the links provided)
 * The source code for each game
+* A list of engines that didn't quite make the cut, with reasons (mostly objective)
 
 ### Selection criteria
 I've been a software engineer since about 2007 and although I can code in a variety of languages I wanted something that *anyone* could pick up so these are the key criteria for inclusion:
@@ -123,17 +124,27 @@ Ultimately, all companies need to make money but they did a bad job with this on
   * Export game as HTML5
   * Go to directory where game was exported
   * Run `python -m http.server 8000` then go to http://localhost:8000 in your browser
-* Physics
-  * [GDCVault - Designing with Physics: Bend the Physics Engine to Your Will](https://gdcvault.com/play/1021921/Designing-with-Physics-Bend-the)
-   * Check your:
-     * **G**ravity
-     * **U**nits
-     * **T**imestep
-   * Change your:
-     * **M**ass values
-     * **I**terations
-     * **N**on-resolvable scenarios
-     * **D**rag forces
+* **Areas**
+  * **General**
+    * https://github.com/Kavex/GameDev-Resources - lots of links to resources, might come in handy
+  * **Art**
+    * https://www.piskelapp.com/ - free online editor for animated sprites and pixel art (built into some game engines like **GDevelop**)
+    * [YouTube - The Ultimate Pixel Art Tutorial](https://www.youtube.com/watch?v=lfR7Qj04-UA)
+  * **Marketplaces**
+    * https://itch.io/ - host indie games. Totally free. Lets users download the files exactly as you uploaded them so you can upload any kind of project for any kind of platform. Adult content is allowed. If your game is HTML5, users can run game directly in the browser 
+  * **Physics**
+    * [GDCVault - Designing with Physics: Bend the Physics Engine to Your Will](https://gdcvault.com/play/1021921/Designing-with-Physics-Bend-the)
+     * Check your:
+       * **G**ravity
+       * **U**nits
+       * **T**imestep
+     * Change your:
+       * **M**ass values
+       * **I**terations
+       * **N**on-resolvable scenarios
+       * **D**rag forces
+  * **Platforms**
+    * https://ruoyusun.com/2023/10/12/one-game-six-platforms.html
 
 ### GDevelop
 [Playable game for the source code in this repository](https://duncanscott.itch.io/2d-platformer-demo-gdevelop)
@@ -455,10 +466,10 @@ Ultimately, all companies need to make money but they did a bad job with this on
     * In some cases regenerating will not fix the issue, seem to be quite a few bugs here
     * Overall, the `Visual Studio` integration seems a lot more bug free, so recommend using that instead
 
-### Potential
+### Potential game engines
 * **Unreal** - market leader. Better experience for 3D games but can also do 2D games. Can export to HTML5. Has visual scripting via `Blueprints`. Code must be C++ (harder than C#). `Pixel 2D` and `PaperZD` packages are popular, but `PaperZD` doesn't support multiplayer. `PaperZD` got bought by Epic to replace `Paper2D` since it hasn't been updated in a long time ([Link](https://www.reddit.com/r/unrealengine/comments/xzgv6t/is_ue_well_suited_to_2d_games/)). However `Paper2D` *does* support multiplayer. Would likely be a worse experience than **Unity** so this hasn't be prioritised yet ([Link](https://www.reddit.com/r/unrealengine/comments/15znwya/anything_you_feel_was_hard_to_overcome_with/))
 
-### Rejected
+### Rejected game engines
 * These are in alphabetical order for easy reference
 * **BabylonJS** - HTML5 game framework with excellent TypeScript support. Has editor but more pure coding oriented. Can do 2.5D games but **Phaser 3** tends to get recommended for 2D games instead. Some people have even offered to add a 2D game engine but it was rejected because the framework prefers to specialise in 3D
 * **Bitsy** - little editor for little games and worlds. Built-in editing tools and can do super simple logic and text. However, can only do moving around on a map and interacting with objects, so no platformers or anything complex
@@ -474,14 +485,4 @@ Ultimately, all companies need to make money but they did a bad job with this on
 * **PuzzleScript** - lets you build really simple tile based puzzle games, so very niche
 * **Stencyl** - free version can only publish to web
 * **TIC-80** – very similar to **PICO-8** but less limited (more memory for code and sprites). Free version is pretty fully featured. Coding is Lua or JavaScript, no easier alternatives. Can't use external editor without pro version 
-* **Twine** - tell interactive non-linear stories, so very niche 
-
-### TODO
-**Ignore this section, these are notes for me**
-* Fix GDevelop bugs
-  * Blend scenery
-  * Fix thumbstick player direction
-* Tipping
-  * Setup /support page on my own website that just redirects to the correct payment making it more flexible
-  * https://ko-fi.com
-* Publicise
+* **Twine** - tell interactive non-linear stories, so very niche
