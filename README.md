@@ -29,16 +29,17 @@ If you enjoy this project, please consider [:hearts: buying me a beer :beer: :he
 ## Summary
 **GDevelop** is probably the one you should start with. If you feel limited, move to **Unity** but expect a steep learning curve. I've personally decided to stick with **Unity** (despite the 2023 pricing fiasco) as it's powerful and I like C#, plus some of my friends are using this. Key information can be found below, see the **Comparison** section next for a deeper analysis.
 
-| Area                               | GDevelop                                                           | Unity                                                           |
-| ---------------------------------- | ------------------------------------------------------------------ | --------------------------------------------------------------- |
-| **Playable game link**             | [My demo](https://duncanscott.itch.io/2d-platformer-demo-gdevelop) | [My demo](https://duncanscott.itch.io/2d-platformer-demo-unity) |
-| Game size                          | ~9 MB                                                              | ~10 MB                                                          |
-| Time (hours) - General tutorials   | 1.5                                                                | 6.5                                                             |
-| Time (hours) - Platformer tutorial | 2                                                                  | 10                                                              |
-| Time (hours) - Platformer polish   | 4.75                                                               | 18                                                              |
-| Time (hours) - Total               | **8.25**                                                           | **34.25**                                                       |
-| **Notable games**                  | **Hyperspace Dogfights**                                           | **Cuphead**, **Hearthstone**, **Hollow Knight**                 |
-| **Showcase**                       | [YouTube](https://www.youtube.com/watch?v=vhVT_avcFgA)             | [YouTube](https://www.youtube.com/watch?v=IjJ9j_HYgGI)          |
+| Area                               | GDevelop                                                                                                                   | Unity                                                                                                                |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Playable game link**             | [My demo](https://duncanscott.itch.io/2d-platformer-demo-gdevelop)                                                         | [My demo](https://duncanscott.itch.io/2d-platformer-demo-unity)                                                      |
+| Playable game screenshot           | ![GDevelop screenshot](https://johnduncanscott.github.io/assets/projects/2d-game-engine-comparison_gdevelop_thumbnail.png) | ![Unity screenshot](https://johnduncanscott.github.io/assets/projects/2d-game-engine-comparison_unity_thumbnail.png) |
+| Game size                          | ~9 MB                                                                                                                      | ~10 MB                                                                                                               |
+| Time (hours) - General tutorials   | 1.5                                                                                                                        | 6.5                                                                                                                  |
+| Time (hours) - Platformer tutorial | 2                                                                                                                          | 10                                                                                                                   |
+| Time (hours) - Platformer polish   | 4.75                                                                                                                       | 18                                                                                                                   |
+| Time (hours) - Total               | **8.25**                                                                                                                   | **34.25**                                                                                                            |
+| **Notable games**                  | **Hyperspace Dogfights**                                                                                                   | **Cuphead**, **Hearthstone**, **Hollow Knight**                                                                      |
+| **Showcase**                       | [YouTube](https://www.youtube.com/watch?v=vhVT_avcFgA)                                                                     | [YouTube](https://www.youtube.com/watch?v=IjJ9j_HYgGI)                                                               |
 
 ## Comparison
 See **Details** below to clarify some of the ratings.
