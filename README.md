@@ -147,6 +147,15 @@ Ultimately, all companies need to make money but they did a bad job with this on
   * **Platforms**
     * https://ruoyusun.com/2023/10/12/one-game-six-platforms.html
 
+#### Language guide
+This project only focuses on engines that offer logic programming for beginners in some fashion (e.g. visual scripting, drag / drop functionality, etc.). However, you may wish to start with something simple and then pick up a popular programming language (e.g. for job purposes). Choosing a language is ultimately a personal preference. Below is a rough and brief guide for the common ones:
+* JavaScript - popular in web development
+* TypeScript - typed version of JavaScript. Gaining popularity in web development
+* Java / C# - solid all-rounders. Syntax is similar. Usually seen in backend services. C# is popular in games too (e.g. **Unity**, **Godot**)
+* Python - easy to read. Popular in AI / machine learning. Good as a general purpose scripting language for automation
+* Lua - easy to embed in other applications. Easy to learn. Popular in games (e.g. Roblox, World of Warcraft interface customisation, etc.)
+* C++ - subjectively harder than the others to learn. Great for optimisation. Usually seen in high performance systems, low level software and games (e.g. **Unreal Engine**)
+
 ### GDevelop
 [Playable game for the source code in this repository](https://duncanscott.itch.io/2d-platformer-demo-gdevelop)
 
@@ -485,5 +494,5 @@ Ultimately, all companies need to make money but they did a bad job with this on
 * **PlayCanvas** - Coding is in JavaScript only. Free version does not allow any private projects which is likely a dealbreaker for many people
 * **PuzzleScript** - lets you build really simple tile based puzzle games, so very niche
 * **Stencyl** - free version can only publish to web
-* **TIC-80** – very similar to **PICO-8** but less limited (more memory for code and sprites). Free version is pretty fully featured. Coding is Lua or JavaScript, no easier alternatives. Can't use external editor without pro version 
+* **TIC-80** – very similar to **PICO-8** but less limited (more memory for code and sprites). Free version is pretty fully featured. Coding is  or JavaScript, no easier alternatives. Can't use external editor without pro version 
 * **Twine** - tell interactive non-linear stories, so very niche
