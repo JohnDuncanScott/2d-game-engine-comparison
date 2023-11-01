@@ -17,7 +17,7 @@ I've been a software engineer since about 2007 and although I can code in a vari
 * Good documentation
 * Good community
 * Under active development
-* Easy **visual scripting** (so you don't need to learn how to code)
+* Easy [visual programming](https://en.wikipedia.org/wiki/Visual_programming_language) (so you don't need to learn how to code)
 * Support working in a **common and useful programming language** (so you can teach yourself coding at the same time or not feel limited by the visual scripting)
 * Easy to use editor
 * Supports exporting to **HTML5** (since this is an easy format to host and share, e.g. free hosting on https://itch.io/games)
@@ -146,14 +146,16 @@ Ultimately, all companies need to make money but they did a bad job with this on
        * **D**rag forces
   * **Platforms**
     * https://ruoyusun.com/2023/10/12/one-game-six-platforms.html
+  * **Sound**
+    * https://frozenfractal.com/projects/jfxr
 
 #### Language guide
-This project only focuses on engines that offer logic programming for beginners in some fashion (e.g. visual scripting, drag / drop functionality, etc.). However, you may wish to start with something simple and then pick up a popular programming language (e.g. for job purposes). Choosing a language is ultimately a personal preference. Below is a rough and brief guide for the common ones:
+This project only focuses on engines that offer [visual programming](https://en.wikipedia.org/wiki/Visual_programming_language) (in addition to common languages). However, you may wish to start with visual programming and then dig into a popular programming language (e.g. for job purposes). Choosing a language is ultimately a personal preference. Below is a brief guide for the common ones:
 * JavaScript - popular in web development
 * TypeScript - typed version of JavaScript. Gaining popularity in web development
-* Java / C# - solid all-rounders. Syntax is similar. Usually seen in backend services. C# is popular in games too (e.g. **Unity**, **Godot**)
+* Java / C# - solid all-rounders. Syntax is similar. Usually seen in backend services. C# is popular in games too (e.g. **Unity** engine, **Godot** engine)
 * Python - easy to read. Popular in AI / machine learning. Good as a general purpose scripting language for automation
-* Lua - easy to embed in other applications. Easy to learn. Popular in games (e.g. Roblox, World of Warcraft interface customisation, etc.)
+* Lua - easy to embed in other applications. Easy to learn. Popular in games (e.g. **Love** engine, Roblox, World of Warcraft interface customisation, etc.)
 * C++ - subjectively harder than the others to learn. Great for optimisation. Usually seen in high performance systems, low level software and games (e.g. **Unreal Engine**)
 
 ### GDevelop
