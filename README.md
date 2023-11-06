@@ -134,7 +134,9 @@ Ultimately, all companies need to make money but they did a bad job with this on
     * https://www.piskelapp.com/ - free online editor for animated sprites and pixel art (built into some game engines like **GDevelop**)
     * [YouTube - The Ultimate Pixel Art Tutorial](https://www.youtube.com/watch?v=lfR7Qj04-UA)
   * **Marketplaces**
-    * https://itch.io/ - host indie games. Totally free. Lets users download the files exactly as you uploaded them so you can upload any kind of project for any kind of platform. Adult content is allowed. If your game is HTML5, users can run game directly in the browser 
+    * https://itch.io/ - host indie games. Totally free. Lets users download the files exactly as you uploaded them so you can upload any kind of project for any kind of platform. Adult content is allowed. If your game is HTML5, users can run game directly in the browser
+  * **Music**
+    * https://github.com/steffest/BassoonTracker - browser-based old-school Amiga music tracker
   * **Physics**
     * [GDCVault - Designing with Physics: Bend the Physics Engine to Your Will](https://gdcvault.com/play/1021921/Designing-with-Physics-Bend-the)
      * Check your:
@@ -188,8 +190,18 @@ This project only focuses on engines that offer [visual programming](https://en.
      * "Smooth Camera" (can be used to stabilise camera when jumping)
      * "Fire bullets"
 5. **Optional**
+   * [Expressions reference](https://wiki.gdevelop.io/gdevelop5/all-features/expressions-reference/)
    * [JavaScript Code events](https://wiki.gdevelop.io/gdevelop5/events/js-code/) - used to keep track of total coins
      * https://forum.gdevelop.io/t/typescript-integration-in-gdjs/25022
+   * Organising game logic
+     * Variable types
+       * Global
+       * Scene
+       * Object
+       * Instance
+     * Event groups - useful to put together a set of events related to the same concept
+     * External events - can be re-used throughout game via links
+     * Custom extensions (objects, behaviours, conditions, actions or expressions)
 
 #### Notes
 * Event list is run from top to bottom every frame
