@@ -629,6 +629,16 @@
         "name": "ios-icon-20.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Assets/CasualGameBGM05/BGM_02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\CasualGameBGM05\\BGM_02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1897,10 +1907,10 @@
               "JumpButton": "A or Cross"
             },
             {
-              "acceleration": 5000,
-              "deceleration": 5000,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 5000,
+              "deceleration": 5000,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
@@ -2836,7 +2846,7 @@
               },
               "parameters": [
                 "",
-                "Assets\\LesFM - Epic Trailer.mp3",
+                "Assets\\CasualGameBGM05\\BGM_02.wav",
                 "yes",
                 "10",
                 ""
