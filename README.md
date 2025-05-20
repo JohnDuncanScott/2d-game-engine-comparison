@@ -120,7 +120,7 @@ This project only focuses on engines that offer [visual programming](https://en.
 * C++ - subjectively harder than the others to learn. Great for optimisation. Usually seen in high performance systems, low level software and games (e.g. **Unreal Engine**)
 
 ## Engine Guides
-
+These guides have been curated by myself to get you started quickly:
 * [General](docs/general_engine_guide.md)
 * [GDevelop](docs/gdevelop_engine_guide.md)
 * [Unity](docs/unity_engine_guide.md)
